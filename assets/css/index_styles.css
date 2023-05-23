@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color:darkblue;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #6495ed;
+    background-color:#0066cc; 
   }
   
   #language-selection {
