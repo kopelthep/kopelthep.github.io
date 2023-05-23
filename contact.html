@@ -1,11 +1,8 @@
-<!-- Par Paul BOULESTEIX (Matricule 20198839) et Rayane KARHAT (Matricule 20233519)  -->
-<!-- Afin de fonctionner ce code doit être sur un serveur (local), ici les test on été réalisés via l'extension live server-->  
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>OnlineShop - Accueil</title>
+  <title>OnlineShop - Contact</title>
   <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
@@ -19,9 +16,9 @@
       </div>
       <nav>
         <ul>
-          <li class="active"><a href="./index.html">Accueil</a></li>
+          <li><a href="./index.html">Accueil</a></li>
           <li><a href="./products.html">Produits</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li class="active"><a href="./contact.html">Contact</a></li>
           <li>
             <a class="shopping-cart" href="./shopping-cart.html" title="Panier">
               <span class="fa-stack fa-lg">
@@ -37,10 +34,26 @@
   </header>
   <main>
     <article>
-      <img alt="home" src="./assets/img/home.png" id="home-img">
-      <h1>Le site n&deg;1 pour les achats en ligne!</h1>
-      <p>Découvrez nos différents produits au meilleur prix.</p>
-      <a class="btn" href="./products.html">En savoir plus <i class="fa fa-angle-double-right"></i></a>
+      <h1>Contact</h1>
+      <p>Si vous souhaitez contacter <em>OnlineShop</em>, veuillez utiliser les coordonnées suivantes.</p>
+      <section class="row contact-info" aria-label="Informations de contact">
+        <div class="col">
+          <i class="fa fa-mobile-alt fa-5x"></i><br>
+          <a href="tel:5143436602">(514) 340-4711</a>
+        </div>
+        <div class="col">
+          <i class="fa fa-map-marker-alt fa-5x"></i>
+          <p class="address">
+          2920, chemin de la tour<br>
+          Montréal (Québec)<br>
+          H3T 1J4
+          </p>
+        </div>
+        <div class="col">
+          <i class="fa fa-envelope fa-5x"></i><br>
+          <a href="mailto:onlieshop@umontreal.ca">onlineshop@umontreal.ca</a>
+        </div>
+      </section>
     </article>
   </main>
   <footer>
@@ -48,5 +61,5 @@
   </footer>
 
   <script src="./assets/script/header.js"></script>
-  </body>
+</body>
 </html>
