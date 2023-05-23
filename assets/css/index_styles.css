@@ -5,11 +5,24 @@ body {
     padding: 0;
   }
   
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #language-selection {
+    margin-left: auto;
+  }
+  
   .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
   }
+  
+
+  
   
   h1 {
     color: #333;
@@ -49,13 +62,17 @@ body {
     text-decoration: underline;
   }
 
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  #language-selection a {
+    color: #fff;
+    background-color: #0066cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
   
-  #language-selection {
-    margin-left: auto;
+  #language-selection a:hover {
+    background-color: #004999;
   }
+  
   
