@@ -10,11 +10,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #6495ed;
   }
   
   #language-selection {
     margin-left: auto;
-    background-color: cornflowerblue;
   }
   
   .container {
