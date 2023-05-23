@@ -48,4 +48,14 @@ body {
   .cv-link:hover {
     text-decoration: underline;
   }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #language-selection {
+    margin-left: auto;
+  }
   
