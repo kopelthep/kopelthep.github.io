@@ -76,4 +76,6 @@ body {
     background-color: #004999;
   }
   
-  
+  .full-li {
+    display: block;
+}
