@@ -413,3 +413,10 @@ footer {
     transform: translateY(0);
   }
 }
+.btn-gray {
+  background-color: #808080; /* or any other gray color you prefer */
+  border-color: #606060; /* or any other dark gray color for the border */
+}
+.btn-gray:hover {
+  background-color: #606060; /* or any other dark gray color for the hover effect */
+}
