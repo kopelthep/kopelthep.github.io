@@ -36,3 +36,13 @@ img {
 *{
   font-family: "Roboto", sans-serif;
 }
+
+#secondp{
+  display: flex;
+  ;
+}
+audio{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
