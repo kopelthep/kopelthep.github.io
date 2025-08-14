@@ -1,0 +1,38 @@
+
+#pupheader {
+  display: flex;
+  height: 60px;
+  align-self: center;
+  justify-content: center;
+}
+body{
+  background: center / cover url("../../assets/img/PUPPYYY.jpg");
+  
+ 
+}
+#firstp{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+p{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+}
+*{
+  font-family: "Roboto", sans-serif;
+}
