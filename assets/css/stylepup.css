@@ -17,6 +17,11 @@ body{
   font-weight: bold;
 
 }
+iframe{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
 
 html, body {
   height: 100%;
